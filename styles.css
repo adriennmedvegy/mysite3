@@ -3,6 +3,13 @@
   position: relative;
   padding-top: 260px;
   margin: 0 auto 0;
+  text-align: center;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
 }
 
 .middle-container {
@@ -36,14 +43,14 @@ a:hover {
   color: #665A48;
 }
 
-h1 {
+.myname {
   color: #FDF0E0;
   width: 30%;
   margin: 0 auto 0 auto;
   position: absolute;
   text-align: center;
-  top: 200px;
-  left: 500px;
+  top: 130px;
+  left: 330px;
   font-size: 65px;
   font-family: 'Sacramento', cursive;
 
@@ -54,14 +61,14 @@ h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
-h3 {
+.a-web-dev {
   color: #FDF0E0;
   width: 30%;
   margin: 0 auto 0 auto;
   position: absolute;
   text-align: center;
   top: 285px;
-  left: 500px;
+  left: 350px;
   font-size: 25px;
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 10px;
@@ -75,15 +82,15 @@ h4 {
 
 .bottom-cloud {
   position: absolute;
-  left: 250px;
-  bottom: 1800px;
+  left: 100px;
+  bottom: 1790px;
   width: 300px;
   height: 200px;
 }
 
 .top-cloud {
   position: absolute;
-  right: 210px;
+  right: 120px;
   top: 20px;
   width: 300px;
   height: 200px;
@@ -112,10 +119,11 @@ p {
   line-height: 2;
 }
 
-.én {
-  height: 170px;
+.me-photo {
+
   width: 175px;
   margin-top: 30px;
+  padding-bottom: 15px;
 }
 
 .cooking {
@@ -135,16 +143,16 @@ p {
 
 .rain{
   position: absolute;
-  right: 290px;
+  right: 220px;
   width: 15%;
-  bottom: 1970px;
+  bottom: 2040px;
 }
 
 .rain2{
   position: absolute;
-  left: 270px;
+  left: 180px;
   width: 15%;
-  bottom: 1700px;
+  bottom: 1750px;
 
 }
 
